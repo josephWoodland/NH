@@ -104,4 +104,9 @@ html {
   margin-left: 2rem;
 }
 
+.hero {
+  height: 780px;
+  background-color: blue;
+}
+
 /*# sourceMappingURL=style.css.map */
