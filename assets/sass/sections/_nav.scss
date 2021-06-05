@@ -1,0 +1,38 @@
+.nav-bar {
+  height: 7rem;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: $font-size-nav;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+    color: $color-pink;
+  }
+
+  &__logo {
+    margin-left: 2%;
+  }
+
+  &__links {
+      margin-left: 10rem;
+    text-transform: uppercase;
+  }
+
+  &__mail {
+    color: $color-pink;
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+    &-el {
+        margin-left: 2rem;
+    }
+  }
+}

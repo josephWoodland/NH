@@ -13,15 +13,5 @@
 html {
   font-size: 62.5%;
   background-color: $color-backgound;
-
-  @media only screen and (max-width: $bp-medium) {
-    font-size: 50%;
-  }
-  @media only screen and (max-width: $bp-xsmall) {
-    font-size: 40%;
-  }
 }
 
-body {
-  overflow-x: hidden;
-}
