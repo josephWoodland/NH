@@ -7,7 +7,6 @@ let state = "paused";
 
 const playing = function () {
   $(document).ready(function () {
-    console.log("Please work!!");
     if (state == "paused") {
       state = "playing";
       $("#circle").attr("class", "");
