@@ -1,32 +1,37 @@
 .hero {
   height: 780px;
   background-image: url(../images/jpg/hero-img.jpg);
-  background-size: fill;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  background-position-y: 6rem;
+  background-position-y: -1rem;
   display: flex;
-  &__info{
-      &-heading{
+  justify-content: space-between;
 
-      }
-      &-strapline{
-
-      }
-      &-p{
-
-      }
-      &-btn{
-
-        &-inactive{
-
-        }
-      }
-
+  &__info {
+    margin-top: 10rem;
+    margin-right: -20rem;
+    width: 40%;
+    &-heading {
+      font-weight: 400;
+    }
+    &-strapline {
+    }
+    &-p {
+    }
+    &-btn{
+      width: 70%
+    }
   }
-  &__logo{
-      background-image: url(../images/svg/hero-blue.svg);
-      background-size: cover;
-      
+  &__logo {
+    display: grid;
+    grid-template-rows: 3;
+    width: 70%;
+    &-main {
+    }
+    &-btn {
+      &-inactive {
+      }
+    }
   }
 }
