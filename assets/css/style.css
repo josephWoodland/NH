@@ -226,4 +226,26 @@ html {
   margin-top: 3rem;
 }
 
+.what-we-do {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.what-we-do img {
+  width: 20%;
+}
+.what-we-do__heading {
+  text-align: center;
+  text-transform: uppercase;
+}
+.what-we-do__imgs {
+  display: flex;
+  margin-left: 10%;
+}
+.what-we-do__boxes {
+  display: flex;
+  margin-left: 10%;
+}
+
 /*# sourceMappingURL=style.css.map */
