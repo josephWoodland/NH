@@ -1,5 +1,14 @@
 .form {
   height: 1000px;
   display: flex;
-//   flex-direction: column;
+  &__text{
+    &-btn{
+
+    }
+  }
+&__video{
+    &-play{
+        
+    }
+}
 }

@@ -64,39 +64,39 @@
         <div class="form__text">
 <h2>Let us know what you want</h2>
 <p>Never eat boring, bland food again. Complete this form & tell us what you would like to see in a plan and we will get our chefs to create a plan around that.</p>
-<div class="form__text btn ">Fill out our form</div>
+<div class="form__text-btn btn ">Fill out our form</div>
 </div>
         <div class="form__video">
             <video id="myVideo" width="320" height="600">
                 <source src="/assets/video/video.MP4" type="video/mp4">
                 Your browser does not support HTML5 video.
-              </video>
+            </video>
               
-<svg width="104" height="104" id='pause'>
-    <circle id="circle" cx="51" cy="51" r="50" stroke-dasharray="314" stroke-dashoffset="0" style="stroke-width:2px;stroke:white;" />
-    <line id='line1' x1="38" y1="30" x2="38" y2="70" style="stroke-width:4px;stroke:white;stroke-linecap: round;" />
-    <path id='line2' d="M 66 30 L 66 50 L 66 70" rx="10" ry="10" style="stroke-width:4px;stroke:white;fill:white;stroke-linejoin: round;stroke-linecap: round;">
-      <animate
-        attributeName="d"
-        dur="300ms"
-        from="M 66 30 L 66 50 L 66 70"
-        to="M 38 30 L 70 50 L 38 70"
-        begin="indefinite"
-        fill="freeze"
-        id="from_pause_to_play"
-      />
-    </path>
-    <animate
-      xlink:href="#line2"
-      attributeName="d"
-      dur="300ms"
-      from="M 38 30 L 70 50 L 38 70"
-      to="M 66 30 L 66 50 L 66 70"
-      fill="freeze"
-      id="from_play_to_pause"
-      begin="indefinite"
-    />
-     
+            <svg class ="form__video-play" width="104" height="104" id='pause'>
+                <circle id="circle" cx="51" cy="51" r="50" stroke-dasharray="314" stroke-dashoffset="0" style="stroke-width:2px;stroke:#FF9A0D;" class=""/>
+                <line id='line1' x1="38" y1="30" x2="38" y2="70" style="stroke-width:4px;stroke:#FF9A0D;stroke-linecap: round;" />
+                <path id='line2' d="M 66 30 L 66 50 L 66 70" rx="10" ry="10" style="stroke-width:4px;stroke:#FF9A0D;fill:#FF9A0D;stroke-linejoin: round;stroke-linecap: round;">
+                <animate
+                    attributeName="d"
+                    dur="300ms"
+                    from="M 66 30 L 66 50 L 66 70"
+                    to="M 38 30 L 70 50 L 38 70"
+                    begin="indefinite"
+                    fill="freeze"
+                    id="from_pause_to_play"
+                />
+                <animate
+                xlink:href="#line2"
+                attributeName="d"
+                dur="300ms"
+                from="M 38 30 L 70 50 L 38 70"
+                to="M 66 30 L 66 50 L 66 70"
+                fill="freeze"
+                id="from_play_to_pause"
+                begin="indefinite"
+                />
+                </path>
+                
             </div>
     </section>
     <section class="what-we-do"></section>
