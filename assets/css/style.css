@@ -124,12 +124,12 @@ html {
 }
 
 .hero {
-  height: 780px;
+  height: 850px;
   background-image: url(../images/jpg/hero-img.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  background-position-y: -1rem;
+  background-position-y: 7rem;
   display: flex;
   justify-content: space-between;
 }
@@ -143,11 +143,40 @@ html {
 }
 .hero__info-btn {
   width: 70%;
+  margin-top: 9rem;
 }
 .hero__logo {
   display: grid;
   grid-template-rows: 3;
   width: 70%;
+}
+.hero__logo-btn {
+  margin-top: -28%;
+  padding-left: 28%;
+  width: 100%;
+  text-transform: uppercase;
+  margin-left: auto;
+  display: flex;
+}
+.hero__logo-btn-cook {
+  margin-top: -2.1rem;
+}
+.hero__logo-btn-van {
+  margin-top: -0.8rem;
+}
+.hero__logo-btn-inactive {
+  height: 6rem;
+  width: 16rem;
+  margin-right: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hero__logo-btn-inactive img {
+  margin-bottom: 1rem;
+}
+.hero__logo-btn-inactive span {
+  font-size: 1.6rem;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,10 +1,10 @@
 .hero {
-  height: 780px;
+  height: 850px;
   background-image: url(../images/jpg/hero-img.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  background-position-y: -1rem;
+  background-position-y: 7rem;
   display: flex;
   justify-content: space-between;
 
@@ -19,8 +19,9 @@
     }
     &-p {
     }
-    &-btn{
-      width: 70%
+    &-btn {
+      width: 70%;
+      margin-top: 9rem;
     }
   }
   &__logo {
@@ -30,7 +31,33 @@
     &-main {
     }
     &-btn {
+      margin-top: -28%;
+      padding-left: 28%;
+      width: 100%;
+      text-transform: uppercase;
+      margin-left: auto;
+      display: flex;
+      &-cook{
+        margin-top: -2.1rem;
+      }
+      &-van{
+        margin-top: -.8rem;
+      }
+
       &-inactive {
+        height: 6rem;
+        width:16rem;
+        margin-right: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        img{
+          margin-bottom: 1rem;
+        }
+        span{
+          font-size: 1.6rem;
+        }
       }
     }
   }
