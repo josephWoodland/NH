@@ -4,7 +4,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  background-position-y: 7rem;
+  background-position-y: 5rem;
   display: flex;
   justify-content: space-between;
 
@@ -37,25 +37,25 @@
       text-transform: uppercase;
       margin-left: auto;
       display: flex;
-      &-cook{
+      &-cook {
         margin-top: -2.1rem;
       }
-      &-van{
-        margin-top: -.8rem;
+      &-van {
+        margin-top: -0.8rem;
       }
 
       &-inactive {
         height: 6rem;
-        width:16rem;
+        width: 16rem;
         margin-right: 3rem;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
 
-        img{
+        img {
           margin-bottom: 1rem;
         }
-        span{
+        span {
           font-size: 1.6rem;
         }
       }
