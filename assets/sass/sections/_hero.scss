@@ -1,4 +1,32 @@
-.hero{
-    height: 780px;
-    background-color: blue;
+.hero {
+  height: 780px;
+  background-image: url(../images/jpg/hero-img.jpg);
+  background-size: fill;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-position-y: 6rem;
+  display: flex;
+  &__info{
+      &-heading{
+
+      }
+      &-strapline{
+
+      }
+      &-p{
+
+      }
+      &-btn{
+
+        &-inactive{
+
+        }
+      }
+
+  }
+  &__logo{
+      background-image: url(../images/svg/hero-blue.svg);
+      background-size: cover;
+      
+  }
 }
