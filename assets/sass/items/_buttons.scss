@@ -11,3 +11,18 @@
   text-align: center;
   padding-top: .7rem;
 }
+
+svg {
+    padding-top: 10vh;
+    margin: 0px auto;
+    display: block;
+  }
+  /* This animates the circle when it switches to play */
+  #circle {
+    transition: stroke-dashoffset 300ms ease-in;
+    stroke-dashoffset: 0;
+    fill: none;
+  }
+  #circle.play {
+    stroke-dashoffset: 314;
+  }
