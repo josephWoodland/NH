@@ -9,20 +9,44 @@
   height: 3.5rem;
   font-size: $font-size-copy-heading;
   text-align: center;
-  padding-top: .7rem;
+  padding-top: 0.7rem;
+  
+  &-blue {
+    background-color: $color-blue;
+    border-radius: 0rem;
+    -webkit-border-radius: 0rem;
+    -moz-border-radius: 0rem;
+    -ms-border-radius: 0rem;
+    -o-border-radius: 0rem;
+  }
+  &-orange {
+    background-color: $color-orange;
+    border-radius: 0rem;
+    -webkit-border-radius: 0rem;
+    -moz-border-radius: 0rem;
+    -ms-border-radius: 0rem;
+    -o-border-radius: 0rem;
+  }
+  &-pink {
+    border-radius: 0rem;
+    -webkit-border-radius: 0rem;
+    -moz-border-radius: 0rem;
+    -ms-border-radius: 0rem;
+    -o-border-radius: 0rem;
+  }
 }
 
 svg {
-    // padding-top: 10vh;
-    margin: 0px auto;
-    display: block;
-  }
-  /* This animates the circle when it switches to play */
-  #circle {
-    transition: stroke-dashoffset 300ms ease-in;
-    stroke-dashoffset: 0;
-    fill: none;
-  }
-  #circle.play {
-    stroke-dashoffset: 314;
-  }
+  // padding-top: 10vh;
+  margin: 0px auto;
+  display: block;
+}
+/* This animates the circle when it switches to play */
+#circle {
+  transition: stroke-dashoffset 300ms ease-in;
+  stroke-dashoffset: 0;
+  fill: none;
+}
+#circle.play {
+  stroke-dashoffset: 314;
+}

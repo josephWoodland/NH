@@ -62,6 +62,29 @@ p {
   text-align: center;
   padding-top: 0.7rem;
 }
+.btn-blue {
+  background-color: #A2F2FA;
+  border-radius: 0rem;
+  -webkit-border-radius: 0rem;
+  -moz-border-radius: 0rem;
+  -ms-border-radius: 0rem;
+  -o-border-radius: 0rem;
+}
+.btn-orange {
+  background-color: #FF9A0D;
+  border-radius: 0rem;
+  -webkit-border-radius: 0rem;
+  -moz-border-radius: 0rem;
+  -ms-border-radius: 0rem;
+  -o-border-radius: 0rem;
+}
+.btn-pink {
+  border-radius: 0rem;
+  -webkit-border-radius: 0rem;
+  -moz-border-radius: 0rem;
+  -ms-border-radius: 0rem;
+  -o-border-radius: 0rem;
+}
 
 svg {
   margin: 0px auto;
@@ -86,6 +109,10 @@ svg {
 
 .margin {
   margin-bottom: 3rem;
+}
+
+.blue {
+  border: #A2F2FA solid 2px;
 }
 
 /* ------- Sections -------- */
