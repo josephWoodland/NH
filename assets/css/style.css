@@ -103,6 +103,7 @@ svg {
 html {
   font-size: 62.5%;
   background-color: #f5f5f5;
+  overflow-x: hidden;
 }
 
 .nav-bar {
@@ -219,7 +220,7 @@ html {
   margin: auto;
 }
 .form__video {
-  margin: auto;
+  margin-top: 15rem;
   padding: 3rem;
 }
 .form__video-play {
@@ -246,6 +247,36 @@ html {
 .what-we-do__boxes {
   display: flex;
   margin-left: 10%;
+}
+
+.about {
+  height: 600px;
+  background-image: url(../images/svg/blue.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 2rem;
+}
+.about h2 {
+  text-transform: uppercase;
+}
+.about img {
+  width: 12rem;
+  margin-right: 2rem;
+}
+.about__chefs {
+  display: flex;
+  width: 55%;
+  margin: auto auto -1rem auto;
+}
+.about__gym {
+  display: flex;
+  width: 55%;
+  margin: 6rem auto auto auto;
 }
 
 /*# sourceMappingURL=style.css.map */

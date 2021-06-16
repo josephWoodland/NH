@@ -1,0 +1,33 @@
+.about {
+  height: 600px;
+  background-image: url(../images/svg/blue.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 2rem;
+
+  h2 {
+    text-transform: uppercase;
+  }
+  img {
+    width: 12rem;
+    margin-right: 2rem;
+  }
+  &__chefs {
+    display: flex;
+    width: 55%;
+    margin: auto auto -1rem auto;
+
+    &-text {
+    }
+  }
+  &__gym {
+    display: flex;
+    width: 55%;
+    margin: 6rem auto auto auto;
+  }
+}
