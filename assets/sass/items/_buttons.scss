@@ -10,7 +10,7 @@
   font-size: $font-size-copy-heading;
   text-align: center;
   padding-top: 0.7rem;
-  
+
   &-blue {
     background-color: $color-blue;
     border-radius: 0rem;
@@ -28,6 +28,7 @@
     -o-border-radius: 0rem;
   }
   &-pink {
+    background-color: $color-pink;
     border-radius: 0rem;
     -webkit-border-radius: 0rem;
     -moz-border-radius: 0rem;

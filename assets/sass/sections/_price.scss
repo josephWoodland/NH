@@ -1,0 +1,61 @@
+.price {
+  height: 800px;
+  &__header {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 3rem 0 2rem 0;
+  }
+  &__sub-header {
+    text-align: center;
+    margin-bottom: 6rem;
+  }
+  &__cards {
+    display: flex;
+    justify-content: space-around;
+  }
+  &__card {
+    width: 20%;
+    color: $color-text-card;
+    box-shadow: 5px 5px rgba($color-text, 0.1);
+
+    &-header {
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 3rem;
+      margin: 1rem 0 1rem 0;
+    }
+    &-price {
+      text-align: center;
+      font-size: 4rem;
+      font-weight: 900;
+      margin-bottom: 6rem;
+      span {
+        margin-left: auto;
+        font-size: 1rem;
+      }
+    }
+    &-details {
+      display: flex;
+      margin: 2rem;
+      font-size: 1rem;
+      padding-bottom: 1rem;
+      padding-top: 1rem;
+      border-bottom: $color-text-card solid 0.5px;
+      span {
+        margin-left: auto;
+      }
+    }
+    &-link {
+      color: #fff;
+      text-align: center;
+      margin-top: 6rem;
+      height: 6rem;
+      display: flex;
+      justify-content: center;
+      span {
+        margin: auto;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

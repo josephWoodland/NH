@@ -79,6 +79,7 @@ p {
   -o-border-radius: 0rem;
 }
 .btn-pink {
+  background-color: #f5767a;
   border-radius: 0rem;
   -webkit-border-radius: 0rem;
   -moz-border-radius: 0rem;
@@ -112,7 +113,15 @@ svg {
 }
 
 .blue {
-  border: #A2F2FA solid 2px;
+  border: #A2F2FA solid 3px;
+}
+
+.orange {
+  border: #FF9A0D solid 3px;
+}
+
+.pink {
+  border: #f5767a solid 3px;
 }
 
 /* ------- Sections -------- */
@@ -131,6 +140,7 @@ html {
   font-size: 62.5%;
   background-color: #f5f5f5;
   overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
 }
 
 .nav-bar {
@@ -142,6 +152,7 @@ html {
   justify-content: space-between;
   font-size: 1.4rem;
   align-items: center;
+  background-color: rgba(255, 255, 255, 0.4);
 }
 .nav-bar a {
   text-decoration: none;
@@ -193,6 +204,7 @@ html {
   display: grid;
   grid-template-rows: 3;
   width: 70%;
+  margin-top: -1rem;
 }
 .hero__logo-btn {
   margin-top: -28%;
@@ -254,6 +266,67 @@ html {
   margin-top: 3rem;
 }
 
+.price {
+  height: 800px;
+}
+.price__header {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 3rem 0 2rem 0;
+}
+.price__sub-header {
+  text-align: center;
+  margin-bottom: 6rem;
+}
+.price__cards {
+  display: flex;
+  justify-content: space-around;
+}
+.price__card {
+  width: 20%;
+  color: #0a0a0a;
+  box-shadow: 5px 5px rgba(43, 43, 43, 0.1);
+}
+.price__card-header {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3rem;
+  margin: 1rem 0 1rem 0;
+}
+.price__card-price {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 6rem;
+}
+.price__card-price span {
+  margin-left: auto;
+  font-size: 1rem;
+}
+.price__card-details {
+  display: flex;
+  margin: 2rem;
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  border-bottom: #0a0a0a solid 0.5px;
+}
+.price__card-details span {
+  margin-left: auto;
+}
+.price__card-link {
+  color: #fff;
+  text-align: center;
+  margin-top: 6rem;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+}
+.price__card-link span {
+  margin: auto;
+  text-transform: uppercase;
+}
+
 .what-we-do {
   width: 100%;
   display: flex;
@@ -282,7 +355,6 @@ html {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  background-position-y: 2rem;
   display: flex;
   justify-content: center;
   flex-direction: column;

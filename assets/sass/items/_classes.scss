@@ -1,12 +1,18 @@
 .width {
-    max-width: 1366px;
-    margin: 0 auto 0 auto;
-  }
+  max-width: 1366px;
+  margin: 0 auto 0 auto;
+}
 
-  .margin {
-    margin-bottom: 3rem;
-  }
+.margin {
+  margin-bottom: 3rem;
+}
 
-  .blue{
-    border: $color-blue solid 2px;
-  }
+.blue {
+  border: $color-blue solid 3px;
+}
+.orange {
+  border: $color-orange solid 3px;
+}
+.pink {
+  border: $color-pink solid 3px;
+}
