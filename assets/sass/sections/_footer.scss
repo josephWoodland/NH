@@ -1,0 +1,41 @@
+.footer{
+    height: 250px;
+    background-color: $color-footer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &__logo{
+        display: flex;
+        justify-content: center;
+    }
+    &__social{
+        display: flex;
+        justify-content: center;
+        font-size:5rem;
+        margin: 2rem 0 2rem -2rem;
+    }
+    &__contact{
+        display: flex;
+        justify-content: center;
+        color: #fff;
+        font-size: $font-size-copy;
+
+        &-link{
+            color: #fff;
+            margin-left: 1rem;
+        }
+    }
+}
+
+.fab{
+    color: #fff;
+}
+
+.fa-facebook-f{
+    margin-left:8rem;
+}
+
+.fa-instagram{
+    // padding-right: 3rem;
+}
