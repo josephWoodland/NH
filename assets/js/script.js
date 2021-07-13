@@ -2,6 +2,7 @@
 
 const video = document.querySelector("#myVideo");
 const play = document.querySelector(".form__video-play");
+const btn = document.querySelector("#btn");
 
 let state = "paused";
 
@@ -36,3 +37,7 @@ $(document).ready(function () {
 });
 
 playing();
+
+btn.addEventListener("click", function (e) {
+  e.preventDefault();
+});

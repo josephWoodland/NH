@@ -15,4 +15,7 @@ html {
   background-color: $color-backgound;
   overflow-x: hidden;
   font-family: $font-primary;
+  @media screen and (max-width: $bp-form) {
+    font-size: 50%;
+  }
 }

@@ -142,6 +142,11 @@ html {
   overflow-x: hidden;
   font-family: "Roboto", sans-serif;
 }
+@media screen and (max-width: 1300px) {
+  html {
+    font-size: 50%;
+  }
+}
 
 .nav-bar {
   height: 5rem;
@@ -161,13 +166,28 @@ html {
 .nav-bar__logo {
   margin-left: 0.3rem;
 }
+@media screen and (max-width: 1300px) {
+  .nav-bar__logo {
+    margin: 0;
+  }
+}
 .nav-bar__links {
   margin-left: 10rem;
   text-transform: uppercase;
 }
+@media screen and (max-width: 1300px) {
+  .nav-bar__links {
+    margin: 0;
+  }
+}
 .nav-bar__mail {
   color: #f5767a;
   margin-right: 0.5rem;
+}
+@media screen and (max-width: 1300px) {
+  .nav-bar__mail {
+    margin: 0;
+  }
 }
 .nav-bar__links {
   display: flex;
@@ -176,6 +196,11 @@ html {
 }
 .nav-bar__links-el {
   margin-left: 2rem;
+}
+@media screen and (max-width: 1300px) {
+  .nav-bar__links-el {
+    margin: 0;
+  }
 }
 
 .hero {
@@ -188,23 +213,49 @@ html {
   display: flex;
   justify-content: space-between;
 }
+@media screen and (max-width: 1300px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+}
 .hero__info {
   margin-top: 10rem;
   margin-right: -20rem;
   width: 40%;
+  text-shadow: 2px 1px #717171;
+  width: 100%;
 }
 .hero__info-heading {
   font-weight: 400;
 }
-.hero__info-btn {
-  width: 70%;
-  margin-top: 9rem;
+.hero__info__btn {
+  width: 100%;
+  display: flex;
+  height: 20%;
+}
+.hero__info__btn-btn {
+  margin-top: auto;
+  width: 60%;
+  text-decoration: none;
 }
 .hero__logo {
   display: grid;
-  grid-template-rows: 3;
   width: 70%;
   margin-top: -1rem;
+}
+@media screen and (max-width: 1400px) {
+  .hero__logo-main {
+    content: url("/assets/images/svg/hero_small.svg");
+    margin-left: 20rem;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .hero__logo-main {
+    content: url("");
+  }
 }
 .hero__logo-btn {
   margin-top: -28%;
@@ -213,6 +264,12 @@ html {
   text-transform: uppercase;
   margin-left: auto;
   display: flex;
+}
+@media screen and (max-width: 1400px) {
+  .hero__logo-btn {
+    justify-content: center;
+    margin-left: -5%;
+  }
 }
 .hero__logo-btn-cook {
   margin-top: -2.1rem;
@@ -228,6 +285,12 @@ html {
   flex-direction: column;
   justify-content: space-between;
 }
+@media screen and (max-width: 1400px) {
+  .hero__logo-btn-inactive {
+    height: 5rem;
+    width: 13rem;
+  }
+}
 .hero__logo-btn-inactive img {
   margin-bottom: 1rem;
 }
@@ -240,11 +303,22 @@ html {
   display: flex;
   justify-content: center;
 }
+@media screen and (max-width: 1300px) {
+  .form {
+    flex-direction: column;
+    width: 100%;
+  }
+}
 .form__text {
   justify-content: center;
   width: 50%;
   margin-top: 20rem;
   text-align: center;
+}
+@media screen and (max-width: 1300px) {
+  .form__text {
+    width: 100%;
+  }
 }
 .form__text-header {
   width: 60%;
@@ -254,7 +328,10 @@ html {
   width: 60%;
   margin: 0 auto 6rem auto;
 }
-.form__text-btn {
+.form__text__btn {
+  display: flex;
+}
+.form__text__btn-btn {
   width: 60%;
   margin: auto;
 }
@@ -262,12 +339,19 @@ html {
   margin-top: 15rem;
   padding: 3rem;
 }
+@media screen and (max-width: 1300px) {
+  .form__video {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+}
 .form__video-play {
   margin-top: 3rem;
 }
 
 .price {
-  height: 800px;
+  height: 850px;
 }
 .price__header {
   text-align: center;
@@ -321,10 +405,21 @@ html {
   height: 6rem;
   display: flex;
   justify-content: center;
+  text-decoration: none;
 }
 .price__card-link span {
   margin: auto;
   text-transform: uppercase;
+}
+.price__button {
+  display: flex;
+  width: 100%;
+  height: 200px;
+}
+.price__button-btn {
+  text-decoration: none;
+  margin: auto;
+  width: 30%;
 }
 
 .what-we-do {

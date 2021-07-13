@@ -16,16 +16,25 @@
 
   &__logo {
     margin-left: 0.3rem;
+    @media screen and (max-width:$bp-form){
+      margin: 0;
+    }
   }
 
   &__links {
     margin-left: 10rem;
     text-transform: uppercase;
+    @media screen and (max-width:$bp-form){
+      margin: 0;
+    }
   }
 
   &__mail {
     color: $color-pink;
     margin-right: 0.5rem;
+    @media screen and (max-width:$bp-form){
+      margin: 0;
+    }
   }
 
   &__links {
@@ -35,6 +44,9 @@
 
     &-el {
       margin-left: 2rem;
+      @media screen and (max-width:$bp-form){
+        margin: 0;
+      }
     }
   }
 }
